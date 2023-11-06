@@ -70,9 +70,14 @@ public class Supervivencia {
 			System.out.println();
 
 		} // fin while
-
-		System.out.println("Han sobrevivido " + supervivientes + " supervivientes.");
-
+		if (supervivientes > 0) {
+			System.out.println("Han sobrevivido " + supervivientes + " supervivientes.");
+			System.out.println("ENHORABUENA!!!");
+		} else {
+			System.out.println("NO HA HABIDO NINGUN SUPERVIVIENTE");
+		}
+			
+			
 		teclado.close();
 
 	}
