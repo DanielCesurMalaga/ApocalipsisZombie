@@ -6,6 +6,7 @@ public class usoClases {
 		Una una;
 		una = new Una(2);
 		System.out.println(una.x);
+		
 	}
 }
 
